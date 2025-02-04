@@ -17,3 +17,17 @@ so we put **E5-2620V4** in this page:
 ~~~
 https://www.intel.com/content/www/us/en/ark.html
 ~~~
+
+# Hand on second day
+ 
+my solution codes:
+
+R1 - https://repo.hca.bsc.es/epic/z/GPZHJ6
+
+R2 - https://repo.hca.bsc.es/epic/z/wKpSPJ
+
+R3 - https://repo.hca.bsc.es/epic/z/IeLLli
+
+R4 - https://repo.hca.bsc.es/epic/z/ourb9l
+
+
