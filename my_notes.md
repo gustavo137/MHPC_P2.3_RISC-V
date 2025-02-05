@@ -39,4 +39,6 @@ And teh files to have "#include "rave_user_events.h" and
 https://repo.hca.bsc.es/gitlab/pvizcaino/rave/-/tree/refactor
 ~~~
 
+# sshfs 
 
+To use a interfase in a server 
