@@ -1,0 +1,2296 @@
+Running with a [512]x[512] Matrix and tolerance of 5.0e-04
+CG	iters	32	Time:	2292131	Residual:	2.3446e-07
+------------------- REPORT -------------------
+Region #0: Event -1 (Global), Value 1 (-), Rank 0, Thread -1
+	Moved bytes (Total): 152999502
+		Moved bytes (scalar): 152999502 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 83931155
+		scalar_instr: 83931155 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #1: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #2: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #3: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #4: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #5: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #6: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #7: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #8: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #9: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #10: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #11: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #12: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #13: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #14: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #15: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #16: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #17: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #18: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #19: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #20: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #21: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #22: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #23: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #24: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #25: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #26: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #27: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #28: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #29: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #30: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #31: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #32: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #33: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #34: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #35: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #36: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #37: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #38: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #39: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #40: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #41: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #42: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #43: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #44: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #45: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #46: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #47: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #48: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #49: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #50: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #51: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #52: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #53: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #54: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #55: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #56: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #57: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #58: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #59: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #60: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #61: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #62: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #63: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #64: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #65: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #66: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #67: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #68: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #69: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #70: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #71: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #72: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #73: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #74: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #75: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #76: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #77: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #78: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #79: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #80: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #81: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #82: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #83: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #84: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #85: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #86: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #87: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #88: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #89: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #90: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #91: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #92: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #93: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #94: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #95: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #96: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #97: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #98: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #99: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #100: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #101: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #102: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #103: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #104: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #105: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #106: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #107: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #108: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #109: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #110: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #111: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #112: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #113: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #114: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #115: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #116: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #117: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #118: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #119: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #120: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #121: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #122: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #123: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #124: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #125: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #126: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #127: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #128: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #129: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #130: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #131: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #132: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #133: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #134: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #135: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #136: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #137: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #138: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #139: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #140: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #141: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #142: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #143: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #144: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #145: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #146: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #147: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #148: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #149: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #150: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #151: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #152: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #153: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #154: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #155: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #156: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #157: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #158: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #159: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #160: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #161: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #162: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #163: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #164: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #165: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #166: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #167: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #168: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #169: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #170: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #171: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #172: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #173: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #174: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #175: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #176: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #177: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #178: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #179: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #180: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #181: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #182: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #183: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #184: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #185: Event 1000 (code_region), Value 5 (Scale), Rank 0, Thread 0
+	Moved bytes (Total): 8203
+		Moved bytes (scalar): 8203 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3084
+		scalar_instr: 3084 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #186: Event 1000 (code_region), Value 6 (Final_Axpy), Rank 0, Thread 0
+	Moved bytes (Total): 12298
+		Moved bytes (scalar): 12298 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4112
+		scalar_instr: 4112 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #187: Event 1000 (code_region), Value 1 (GEMV), Rank 0, Thread 0
+	Moved bytes (Total): 4203532
+		Moved bytes (scalar): 4203532 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 2102795
+		scalar_instr: 2102795 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #188: Event 1000 (code_region), Value 2 (Dot1), Rank 0, Thread 0
+	Moved bytes (Total): 8204
+		Moved bytes (scalar): 8204 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 4111
+		scalar_instr: 4111 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #189: Event 1000 (code_region), Value 3 (Axpys), Rank 0, Thread 0
+	Moved bytes (Total): 24587
+		Moved bytes (scalar): 24587 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 9232
+		scalar_instr: 9232 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+Region #190: Event 1000 (code_region), Value 4 (Dot2), Rank 0, Thread 0
+	Moved bytes (Total): 4108
+		Moved bytes (scalar): 4108 (100.00 %)
+		Moved bytes (vector): 0 (0.00 %)
+	tot_instr: 3086
+		scalar_instr: 3086 (100.00 %)
+		vsetvl_instr: 0 (0.00 %)
+		vector_instr: 0 (0.00 %)
+			SEW 8 vector_instr: 0 (0.00 %)
+			SEW 16 vector_instr: 0 (0.00 %)
+			SEW 32 vector_instr: 0 (0.00 %)
+			SEW 64 vector_instr: 0 (0.00 %)
+------------------------------------------------
